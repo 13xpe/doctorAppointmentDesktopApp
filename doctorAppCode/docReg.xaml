@@ -1,0 +1,46 @@
+﻿<Window x:Class="DoctorSoftwareApp.docReg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorSoftwareApp"
+        mc:Ignorable="d"
+        Title="docReg" Height="650" Width="1000">
+    <Grid>
+        <TextBlock Height="26" HorizontalAlignment="Left" Margin="135,141,0,0" x:Name="textBlockFirstname" Text="First Name:" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.5,0.5" FontSize="14" />
+
+        <TextBlock Height="20" HorizontalAlignment="Left" Margin="134,182,0,0" x:Name="textBlockLastName" Text="Last Name:" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.5,0.5" FontSize="14" />
+        <TextBlock Height="16" HorizontalAlignment="Left" Margin="135,224,0,0" x:Name="textBlockEmailId" Text="Email" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.5,0.5" FontSize="14" />
+        <TextBlock Height="19" HorizontalAlignment="Left" Margin="135,266,0,0" x:Name="textBlockAddress" Text="Address" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.394,0.48" FontSize="14" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="261,140,0,0" x:Name="doctor_first_name" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="261,179,0,0" x:Name="doctor_last_name" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="260,218,0,0" x:Name="doctor_email" VerticalAlignment="Top" Width="240" RenderTransformOrigin="0.5,0.5" />
+        <!--For password-->
+        <TextBlock Height="19" HorizontalAlignment="Left" Margin="136,0,0,0" x:Name="textBlockAddress_Copy1" Text="Phone No" VerticalAlignment="Center" Width="63" RenderTransformOrigin="0.5,0.5" FontSize="14" />
+
+        <TextBlock Height="19" HorizontalAlignment="Left" Margin="597,144,0,0" x:Name="textBlockAddress_Copy3" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.38,-0.124" FontSize="14" Text="Medical ID" />
+
+        <TextBox Height="31" HorizontalAlignment="Left" Margin="677,139,0,0" x:Name="doctor_medical_id" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.5,0.5" />
+
+        <TextBox x:Name="doctor_phone_number" HorizontalAlignment="Left" Margin="259,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="29" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBox x:Name="doctor_address" HorizontalAlignment="Left" Margin="260,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="30" RenderTransformOrigin="0.5,0.5"/>
+
+        <TextBox x:Name="doctor_specialization" HorizontalAlignment="Left" Margin="261,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Height="30"/>
+        <Label Content="Specialization" HorizontalAlignment="Left" Height="30" Margin="129,343,0,0" VerticalAlignment="Top" Width="115" FontSize="14"/>
+        <Rectangle HorizontalAlignment="Center" Height="49" VerticalAlignment="Top" Width="1000" Fill="#FF85B0F4"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="129,413,0,0" VerticalAlignment="Top" Width="97" BorderBrush="Black" Background="{x:Null}" FontSize="14"/>
+        <TextBox x:Name="doctor_username" HorizontalAlignment="Left" Margin="259,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="29"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="129,458,0,0" VerticalAlignment="Top" Width="97" BorderBrush="Black" Background="{x:Null}" FontSize="14"/>
+        <Label Content="Doctor Registration" HorizontalAlignment="Left" Margin="43,6,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <TextBlock Height="25" HorizontalAlignment="Left" Margin="539,190,0,0" x:Name="textBlockAddress_Copy" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.38,-0.124" FontSize="14" />
+        <TextBox Height="96" HorizontalAlignment="Left" Margin="677,190,0,0" x:Name="doctor_notes" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.5,0.5" />
+
+        <Button x:Name="submit_Doctor_Reg" Content="Register" HorizontalAlignment="Left" Margin="676,348,0,0" VerticalAlignment="Top" Height="40" Width="165" Background="#FF85B0F4" Foreground="White" BorderBrush="White" Click="submit_Doctor_Reg_Click"/>
+        <Button x:Name="reset_Doctor" Content="Reset" HorizontalAlignment="Left" Margin="676,398,0,0" VerticalAlignment="Top" Height="39" Width="165" Background="#FF85B0F4" Foreground="White" BorderBrush="White" Click="reset_Doctor_Click"/>
+        <Button x:Name="cancel_doctor" Content="Cancel" HorizontalAlignment="Left" Margin="676,448,0,0" VerticalAlignment="Top" Height="38" Width="165" Background="#FF85B0F4" Foreground="White" BorderBrush="White" Click="cancel_doctor_Click"/>
+        <TextBlock Height="19" HorizontalAlignment="Left" Margin="598,190,0,0" x:Name="textBlockAddress_Copy2" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.38,-0.124" FontSize="14" ><Run Language="en-ca" Text="Notes"/></TextBlock>
+        <PasswordBox x:Name="doctor_password" HorizontalAlignment="Left" Margin="259,458,0,0" VerticalAlignment="Top" Width="241" Height="29"/>
+
+    </Grid>
+</Window>

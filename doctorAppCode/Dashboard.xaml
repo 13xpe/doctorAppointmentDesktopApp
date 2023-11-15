@@ -1,0 +1,34 @@
+﻿<Window x:Class="DoctorSoftwareApp.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorSoftwareApp"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="144" Background="#FF85B0F4"/>
+        <Rectangle HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="800" Fill="#FF224681"/>
+
+        <Button Content="Show Patients" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="120" Background="#FF224681" BorderBrush="Black" Margin="12,134,0,0" Foreground="White" Click="Button_Click" />
+        <Button Content="New Patient" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="120" Background="#FF224681" BorderBrush="Black" Margin="12,233,0,0" Foreground="White" Click="medicalRecordButton_Click"/>
+        <Button Content="Search Patient" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="120" Background="#FF224681" BorderBrush="Black" Margin="12,184,0,0" Foreground="White" Click="Button_Click_1"/>
+        <Button x:Name="AppointmentButton" Content="Appointments" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="120" Background="#FF224681" BorderBrush="Black" Margin="12,283,0,0" Foreground="White" Click="AppointmentButton_Click"/>
+        <Calendar x:Name="doctorCalendar" HorizontalAlignment="Left" Height="167" Margin="538,163,0,0" VerticalAlignment="Top" Width="233" FontSize="14" RenderTransformOrigin="0.5,0.5" Foreground="White">
+            <Calendar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.3" ScaleY="1.3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Calendar.RenderTransform>
+        </Calendar>
+        <Label Content="Your calendar:" HorizontalAlignment="Left" Margin="539,111,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FF85B0F4" Foreground="White" BorderBrush="Black"/>
+        <Label Content="Your patients:" HorizontalAlignment="Left" Margin="178,113,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FF85B0F4" Foreground="White" Width="89" BorderBrush="Black"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="176,145,297,83"/>
+        <Label x:Name="welcometitle" Content="Welcome!" HorizontalAlignment="Left" Margin="25,8,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="691,0,0,0" VerticalAlignment="Top" Height="51" Width="98" Background="#FFFF6666" Foreground="White" BorderBrush="White" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
