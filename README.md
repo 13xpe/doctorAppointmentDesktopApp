@@ -12,24 +12,30 @@ Clinic Patient Management Desktop App – a user-friendly solution designed for 
     Add new patient details seamlessly, maintaining an up-to-date database.
 </li>
 <br></br>
-Appointment Management:
+<li>Appointment Management:
 Manage existing appointments through a clear interface.
 Create new appointments effortlessly, reinforcing flexibility.
+</li>
 <br></br>
-REST API Integration:
+<li>REST API Integration:
 Seamlessly communicates with a robust REST API for efficient database interactions.
 Ensures secure data transmission and enhances overall performance.
+</li>
 <br></br>
-How to Use:
+<li>How to Use:
 Setup:
 Follow the easy installation guide in the "Installation" section.
 Clone the repository and open it in Visual Studio (Version 17.7.3).
+</li>
 <br></br>
+<li>
 Configuration:
 Configure the database connection settings within the application to match your pgAdmin 4 setup.
+</li>
 <br></br>
-Build and Run:
+<li>Build and Run:
 Build the project within Visual Studio to ensure all dependencies are resolved.
 Run the application to confirm a successful setup.
+</li>
 <br></br>
 Try it yourself! 
