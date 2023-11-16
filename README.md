@@ -1,5 +1,5 @@
 # doctorAppointmentDesktopApp
-Clinic Patient Management Desktop App – a user-friendly solution designed for healthcare professionals to efficiently manage patient records and appointments. Streamline your clinic operations with this intuitive application tailored for doctors and nurses.
+Clinic Patient Management Desktop App – a user-friendly solution designed for healthcare professionals to efficiently manage patient records and appointments. Streamline your clinic operations (doctors/nurses) with this intuitive application tailored for doctors and nurses.
 
 Key Features:
 Login and Dashboard:
