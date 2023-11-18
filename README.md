@@ -6,7 +6,6 @@ Clinic Patient Management Desktop App – a user-friendly solution designed for 
 <li>Login and Dashboard:
     A personalized hub for doctors and nurses, ensuring easy navigation to essential functionalities. This login page is connected to a specific database that will check the username + password.
 </li>
-(https://github.com/13xpe/doctorAppointmentDesktopApp/assets/124820216/97222777-6fff-4cd2-871c-5c6bdfa74dae)
 <br></br>
 <li>Patient Management:
     Efficiently access, navigate, and manage patient records.
