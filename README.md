@@ -38,4 +38,4 @@ Build the project within Visual Studio to ensure all dependencies are resolved.
 Run the application to confirm a successful setup.
 </li>
 <br></br>
-Try it yourself! 
+Build your databases and try it yourself!
