@@ -5,4 +5,4 @@ The app starts with a login where every doctor will have a username and password
 <br></br>
 ![Screenshot (20)](https://github.com/13xpe/doctorAppointmentDesktopApp/assets/124820216/f2d0d0ca-6760-4285-8ca7-3a64318099fa)
 
-
+After the login, doctors or nurses can get access to all the app tools/functionalities.
